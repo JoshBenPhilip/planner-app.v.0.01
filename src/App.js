@@ -8,6 +8,11 @@ function App() {
     <>
       <div className="App">
         <header className="App-header">
+          <form>
+            <label htmlFor="date">Date</label>
+            <input id="Date" type="text" />
+          </form>
+          <h1>Planner</h1>
           <PlannerPageThurJan_12></PlannerPageThurJan_12>
           <PlannerPageFriJan_13></PlannerPageFriJan_13>
           <img src={logo} className="App-logo" alt="logo" />
